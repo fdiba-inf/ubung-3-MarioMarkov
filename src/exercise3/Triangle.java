@@ -22,13 +22,13 @@ public class Triangle {
             area = Math.sqrt(p*(p-a)*(p-b)*(p-c));
             System.out.println("Area: "+ area);
             if(a==b && b==c)
-            System.out.println("Equilateral");
+            System.out.println("Triangle: equilateral");
 
         else if ((a==b && b!=c ) || (a!=b && c==a) || (c==b && c!=a))
-            System.out.println("Isosceles");
+            System.out.println("Triangle: Isosceles");
 
         else if(a!=b && b!=c && c!=a)
-            System.out.println("Scalene");
+            System.out.println("Triangle: Scalene");
           } 
           else{
             System.out.println("Values are not correct!");
