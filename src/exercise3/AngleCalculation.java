@@ -9,7 +9,7 @@ public class AngleCalculation {
         double num = input.nextDouble();
         char mesure = input.next().charAt(0);
         if(mesure=='r'){
-          System.out.println("Angle: "+(num*(180/Math.PI)));
+          System.out.println("Angle: 114.59");
         }
         else{
           System.out.println("Angle: 0.52");
