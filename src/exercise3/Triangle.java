@@ -20,7 +20,13 @@ public class Triangle {
           }
           if (a>0 && b>0&& c>0 && a+b>c && a+c>b&& b+c>a ){
             area = Math.sqrt(p*(p-a)*(p-b)*(p-c));
-            System.out.println(area);
+            System.out.println("Area: "+ area);
+            if(a==b||a==c||c==b){
+              System.out.println("Triangle: isosceles");
+
+            }else if(a==b||a==c||c==b){
+
+            }
           } 
           else{
             System.out.println("Values are not correct!");
