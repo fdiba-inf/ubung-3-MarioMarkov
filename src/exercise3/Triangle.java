@@ -25,10 +25,10 @@ public class Triangle {
             System.out.println("Triangle: equilateral");
 
         else if ((a==b && b!=c ) || (a!=b && c==a) || (c==b && c!=a))
-            System.out.println("Triangle: Isosceles");
+            System.out.println("Triangle: isosceles");
 
         else if(a!=b && b!=c && c!=a)
-            System.out.println("Triangle: Scalene");
+            System.out.println("Triangle: scalene");
           } 
           else{
             System.out.println("Values are not correct!");
