@@ -2,12 +2,15 @@ package exercise3;
 
 import java.util.Scanner;
 
-public class PrimeNumber {
+public class AngleCalculation {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double r = 0.0;
-        double d = 0.0;
+        double num = input.nextDouble();
+        char mesure = input.next().charAt(0);
+        if(mesure=='r'){
+          System.out.println("Angle: "+(num*Math.PI/180));
+        }
         
     }
 
